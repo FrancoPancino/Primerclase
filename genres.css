@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+.titulo-pelicula {
+    color: white;
+    text-align: center;
+
+}
+.peliculas-genero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.peliculas-genero article {
+    color: white;
+    border-radius: 13px;
+    border-style: solid;
+}
+
+.imagenes {
+    height: 360px;
+    width: 230px;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.series-genero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.series-genero article {
+    color: white;
+    border-radius: 13px;
+    border-style: solid;
+   
+    
+}
+.titulo-series {
+    color: white;
+    text-align: center;
+
+}
+
+
